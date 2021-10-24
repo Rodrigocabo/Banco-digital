@@ -18,10 +18,14 @@ class contacorrente{
 
 depositar(valor){
   if(valor  >0  ){
+    return;
+  }
+  
     this.saldo += valor;
-  }
-  }
-}
+        }
+      }
+    
+  
 
     
 
