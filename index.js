@@ -15,7 +15,15 @@ class contacorrente{
     
             } 
       }
-    }
+
+depositar(valor){
+  if(valor  >0  ){
+    this.saldo += valor;
+  }
+  }
+}
+
+    
 
 
 const cliente1nome = "carlos";
@@ -30,9 +38,9 @@ contacorrentekeila.saldo = 0;
 contacorrentekeila.agencia = 121222211;
 
 console.log(contacorrentekeila.saldo);
-contacorrentekeila.saldo += 100;
-contacorrentekeila.saldo  += 200;
-contacorrentekeila.saldo += -1;
+contacorrentekeila.depositar (100);
+contacorrentekeila.depositar(200);
+contacorrentekeila.depositar(-1);
 console.log(contacorrentekeila.saldo);
 contacorrentekeila.sacar(50);
 
