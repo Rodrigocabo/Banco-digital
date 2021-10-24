@@ -45,6 +45,21 @@ console.log(contacorrentekeila.saldo);
 contacorrentekeila.sacar(50);
 
 
+const contacorrentecarlos = new contacorrente();
+
+contacorrente.agencia = 1001;
+
+contacorrentecarlos.depositar(100);
+contacorrentecarlos.depositar(100);
+contacorrentecarlos.depositar(100);
+
+console.log(valorsacado);
+console.log(contacorrentecarlos);
+
+
+
+
+
 
 
 console.log(contacorrentecarlos.saldo);
