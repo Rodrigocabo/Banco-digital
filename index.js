@@ -13,7 +13,7 @@ class contacorrente{
             this.saldo -= valor;
 
     
-            }
+            } 
       }
     }
 
@@ -26,13 +26,15 @@ const cliente1cpf = "10101010";
 const cliente2nome = "keila";
 const cliente2cpf   = "121222211";
 
-const contacorrente = new contacorrente();
-contacorrentecarlos.agencia = 10101010;
-contacorrentecarlos.agencia = 1001;
-console.log(contacorrentecarlos.saldo);
-contacorrentecarlos.saldo = 100;
-console.log(contacorrentecarlos.saldo);
+contacorrentekeila.saldo = 0;
+contacorrentekeila.agencia = 121222211;
 
+console.log(contacorrentekeila.saldo);
+contacorrentekeila.saldo += 100;
+contacorrentekeila.saldo  += 200;
+contacorrentekeila.saldo += -1;
+console.log(contacorrentekeila.saldo);
+contacorrentekeila.sacar(50);
 
 
 
